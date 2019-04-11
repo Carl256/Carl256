@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
           box-shadow: none;
 }
 
-/*#my-modal {
+#my-modal {
 	display: none;
 }
 
@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .custombox-content {
 	background: #212332;
-}*/
+}
 
 /**********************************/
 
@@ -142,6 +142,7 @@ h1, h2, h3, h4, h5, h6 {
 #experience {
 	background-color: #4c6d86;
 	padding: 6em 4em 5.6em;
+	
 }
 
 #experience h2 {
@@ -334,7 +335,9 @@ h1, h2, h3, h4, h5, h6 {
 	color: #7d7d7d;
 }
 /*-----------media queries */
-@media screens and (max-width:400px){
+
+
+@media screen and (max-width:400px;){
 	/*** Footer Call-to-action ***/
 #footer-cta {
 	background-color: rgba(0, 0, 0);
