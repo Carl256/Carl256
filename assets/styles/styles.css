@@ -333,3 +333,63 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 500;
 	color: #7d7d7d;
 }
+/*-----------media queries */
+@media screens and (max-width:400px){
+	/*** Footer Call-to-action ***/
+#footer-cta {
+	background-color: rgba(0, 0, 0);
+	padding: auto;
+}
+
+#footer-cta h2 {
+	color: white;
+}
+
+#footer-cta p {
+	color: #fff;
+	font-family: "Maven pro", sans-serif;
+	font-weight: 300;
+	font-size: 0.75em;
+}
+
+#startButtonDiv {
+	margin-top: 1em;
+}
+
+#footer-cta a {
+	border: 2px solid #fff;
+	border-radius: 25px;
+	color: #fff;
+}
+
+#footer-cta a:hover {
+	background: #fff;
+	color: rgba(255, 103, 68, 0.91);
+	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
+}
+
+/*** footer starts ***/
+
+#footer {
+	padding: 1.5em 1em 0.75em;
+}
+
+#footer #logo {
+	background-color: rgba(0, 0, 0);
+	border-radius: 20%;
+	color: #fff;
+	padding: 0.2em;
+	font-family: "Maven pro", sans-serif;
+	font-size: 0.75em;
+	font-weight: 300;
+	display: inline;
+}
+
+#footer #copyright {
+	margin-top: 0.75em;
+	font-family: "Maven pro", sans-serif;
+	font-weight: 300;
+	color: #7d7d7d;
+}
+
+}
